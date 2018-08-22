@@ -20,7 +20,7 @@ class Navbar extends Component {
                         </Link>
                     </div>
                     {this.props.currentUser.isAuthenticated ? (
-                        <ul className="nav-bar-nav navbar-right">
+                        <ul className="navbar-nav nav navbar-right">
                             <li>
                                 <Link
                                     to={`/users/${

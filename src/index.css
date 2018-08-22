@@ -9,7 +9,7 @@ body {
 }
 .navbar a {
     font-weight: bold;
-    color: rgb(206, 206, 206);
+    color: rgb(236, 232, 232);
 }
 
 .navbar a:hover {
@@ -50,6 +50,16 @@ ul.nav.navbar-nav li {
     padding: 1rem;
     background-position: center center;
     background-size: cover;
-    color: rgba(255, 255, 255, 0.911);
+    color: rgba(255, 255, 255, 0.966);
     text-shadow: 0 0 8px #66757f;
+}
+
+#messages .list-group-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 7px 20px 12px;
+}
+
+#messages:not(.no-hover) .list-group-item:hover {
+    background-color: #e6ecf0;
 }
